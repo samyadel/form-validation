@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/style.css">
+  <title>Form Validation</title>
+</head>
+<body>
+  <form class="form" id="form" novalidate>
+    <fieldset>
+      <legend>Sign Up</legend>
+      <div class="form-inputs">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+          <i class="fas fa-check-circle check"></i>
+          <i class="fas fa-exclamation-circle exclamation"></i>
+          <small></small>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <i class="fas fa-check-circle check"></i>
+          <i class="fas fa-exclamation-circle exclamation"></i>
+          <small></small>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+          <i class="fas fa-check-circle check"></i>
+          <i class="fas fa-exclamation-circle exclamation"></i>
+          <small></small>
+        </div>
+
+        <div class="input-group">
+          <label for="password2">Re-type Password</label>
+          <input type="password" name="password2" id="password2">
+          <i class="fas fa-check-circle check"></i>
+          <i class="fas fa-exclamation-circle exclamation"></i>
+          <small></small>
+        </div>
+        
+        <input type="submit" value="Sign Up" class="submit">
+      </div>
+    </fieldset>
+  </form>
+
+  <script src="https://kit.fontawesome.com/e02b0205d6.js" crossorigin="anonymous"></script>
+  <script src="./resources/scripts/script.js"></script>
+</body>
+</html>

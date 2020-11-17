@@ -1,0 +1,111 @@
+/***************GENERAL***************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #9b59b6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+/***************FORM***************/
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 40rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  background-color: #f7f7f7;
+  padding: 2rem 4rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.form-inputs {
+  padding: 3rem;
+}
+
+.input-group {
+  position: relative;
+  height: 10rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input {
+  display: block;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  width: 100%;
+  height: 4rem;
+}
+
+i {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  visibility: hidden;
+}
+
+small {
+  color: #e74c3c;
+}
+
+.submit {
+  background-color: #9b59b6;
+  color: #fff;
+  font-size: 1.7rem;
+  height: 4.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.success input {
+  border-color: #2ecc71;
+}
+
+.success .check {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.error input {
+  border-color: #e74c3c;
+}
+
+.error .exclamation {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px #fff inset;
+}
